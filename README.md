@@ -28,7 +28,7 @@ int main(int argc,char **argv) {
                         "TYR","VAL","HIS","HIE","MSE"};
                         
   Read_psf psf;
-  psd.loadfile("./myfile.psf");
+  psf.loadfile("./myfile.psf");
   
   int *cidx,cn;
   psf.choose("resname",res,25);  //choose protein
