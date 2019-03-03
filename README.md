@@ -33,8 +33,8 @@ int main(int argc,char **argv) {
   
   int *cidx,cn;
   psf.choose("resname",res,25);  //choose protein
-  psf.choose("segid","C");       //choose segment
-  psf.choose("name","CA");       //choose CA atom
+  psf.choose("segid","C");       //choose segment C
+  psf.choose("name","CA");       //choose atom CA
   cn=psf.choose_getn();
   cidx=new int[cn];
   psf.choose_get(cidx);
