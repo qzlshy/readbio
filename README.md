@@ -10,7 +10,6 @@ An example to calculate rmsd with this library: <br/>
 #include "fit.h"
 
 double calrmsd(float *x1,float *y1,float *z1,float *x2,float *y2,float *z2,int n) {
-
   double rmsd,t;
   t=0.0;
   for(int i=0;i<n;i++) {
