@@ -4,7 +4,7 @@ a c++ library to read pdb psf dcd file <br/>
 fit.h <br/>
 fit a protein structure to another <br/>
 
-An example: <br/>
+An example to calculate rmsd with this library: <br/>
 ```
 #include "readfile.h"
 #include "fit.h"
